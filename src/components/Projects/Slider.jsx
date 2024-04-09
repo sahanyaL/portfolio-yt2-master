@@ -10,15 +10,18 @@ import pic3 from "./img3.png";
 let data = [
     {
         img : pic1,
-        disc : "HearLink /br HearLink is a cutting-edge communication platform designed to facilitate seamless interaction for individuals with hearing disabilities. It offers real-time sign language translation and speech recognition, revolutionizing digital communication. HearLink aims to enhance accessibility and inclusivity, empowering users with hearing impairments to engage effortlessly in meaningful conversations."
+        disc : "ToursSL offers curated tours showcasing Sri Lanka's beauty, from cultural expeditions to wildlife adventures. With seamless booking and expert guides, create unforgettable memories exploring the charm of Sri Lanka.",
+        link :"https://github.com/sahanyaL/toursl.github.io"
     },
     {
         img : pic2,
-        disc : "ToursSL /br ToursSL is your gateway to unforgettable travel experiences in Sri Lanka. Discover curated tours showcasing the country's beauty and charm, from cultural expeditions to wildlife adventures and beach escapes. With seamless booking and expert guides, we ensure every journey is extraordinary. Explore Sri Lanka with ToursSL and create lasting memories"
+        disc : "HearLink revolutionizes digital communication with real-time sign language translation and speech recognition. It aims to empower users with hearing impairments to engage effortlessly in meaningful conversations, enhancing accessibility and inclusivity.",
+        link :"https://github.com/sahanyaL/HearLink"
     },
     {
         img : pic3,
-        disc : "Shopping Manager /br The Shopping Manager System is a Java-based solution designed to streamline inventory management for businesses. This system offers essential functionalities such as adding, deleting, selecting, and displaying products. Built with modularity and scalability in mind, it simplifies inventory tasks, optimizing workflow efficiency for managers."
+        disc : "The Shopping Manager System simplifies inventory management with essential functionalities for businesses. Built for modularity and scalability, it optimizes workflow efficiency, making inventory tasks easier for managers.",
+        link :"https://github.com/sahanyaL/Shopping-Manager"
     }
 ];
 
