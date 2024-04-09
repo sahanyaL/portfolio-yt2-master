@@ -4,7 +4,7 @@ import {IoIosQuote} from "react-icons/io";
 import {AiOutlineStar} from "react-icons/ai";
 
 const ClientSlider = (props) => {
-    const {name, position, img_url, stars, disc} = props.item;
+    const {name, position, img_url, stars, disc,link} = props.item;
   return (
     <Container>
         <Header>
@@ -19,9 +19,12 @@ const ClientSlider = (props) => {
         </Header>
         <Body>
             {disc}
+            <a href={link} className="credential-link" target="_blank" rel="noopener noreferrer">
+                    <StyledButton className="btn btn-github2">Show Credential</StyledButton>
+            </a>
         </Body>
         <Footer>
-            <img src={img_url} alt={name} />
+            
             <div className="details">
                 <h1>{name}</h1>
                 <p>{position}</p>
@@ -86,5 +89,20 @@ const Footer = styled.div`
         @media(max-width: 538px){
             font-size: 0.6rem;
         }
+    }
+`
+
+const StyledButton = styled.button`
+    color: white;
+    background-color: #01be96;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        color: #01be96;
+        background-color: white;
     }
 `
