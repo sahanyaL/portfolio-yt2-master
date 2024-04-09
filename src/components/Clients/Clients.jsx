@@ -7,37 +7,55 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "",
+        position : "",
+        disc : `Machine Learning with Python 🐍`,
+        link:"https://www.coursera.org/account/accomplishments/records/KMYUR6N584LX"
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "",
+        position : "",
+        
+        disc : `Business Analysis and Process Management 📚`,
+        link:"https://www.coursera.org/account/accomplishments/records/8ULPZE7RMDYG"
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "",
+        position : "",
+        
+        disc : `Solving Problems with Creative and Critical Thinking 📚 `,
+        link:"https://www.coursera.org/account/accomplishments/records/4UYFHFLSY5V5"
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "",
+        position : "",
+        
+        disc : `Javascript and React.JS from A to Z by AWS Community 💻`,
+        link:"https://cert.devtown.in/verify/2iAGwM"
     },
+    {
+        name : "",
+        position : "",
+        
+        disc : `Javascript And PHP Programming Complete Course 💻`,
+        link:"https://www.udemy.com/certificate/UC-ae50597b-3ea3-4964-ae0f-d3be76c7e66d/"
+    },
+    {
+        name : "",
+        position : "",
+        
+        disc : `Python from A to Z Community builders 🐍`,
+        link:"https://cert.devtown.in/verify/1z68Bh"
+    },
+    {
+        name : "",
+        position : "",
+        
+        disc : `🌟 Organized SYNOTEC 24 ICT Day at Wallasmulla National School, igniting passion and creativity in students through engaging activities like quizathons and ideathons. Inspired by their dedication, we're shaping a brighter tomorrow, one innovative solution at a time! 🚀`,
+        link:"https://www.linkedin.com/feed/update/urn:li:activity:7181276787740475392/"
+    },
+
+    
 ]
 var settings = {
     dots: true,
@@ -83,8 +101,8 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <span className="green">Certifications and Volunteer</span>
+            <h1>Certifications</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>
