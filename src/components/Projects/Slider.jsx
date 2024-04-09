@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import pic1 from "./img1.png";
 import pic2 from "./img2.png";
 import pic3 from "./img3.png";
+import pic4 from "./img4.png";
 
 let data = [
     {
@@ -22,7 +23,12 @@ let data = [
         img : pic3,
         disc : "The Shopping Manager System simplifies inventory management with essential functionalities for businesses. Built for modularity and scalability, it optimizes workflow efficiency, making inventory tasks easier for managers.",
         link :"https://github.com/sahanyaL/Shopping-Manager"
-    }
+    },
+    {
+      img : pic4,
+      disc : "🌟 Organized SYNOTEC 24 ICT Day at Wallasmulla National School, igniting passion and creativity in students through engaging activities like quizathons and ideathons. Inspired by their dedication, we're shaping a brighter tomorrow, one innovative solution at a time! 🚀",
+      link :"https://www.linkedin.com/feed/update/urn:li:activity:7181276787740475392/"
+  }
 ];
 
 var settings = {
