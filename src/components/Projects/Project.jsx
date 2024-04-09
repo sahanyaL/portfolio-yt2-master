@@ -9,7 +9,7 @@ const Project = (props) => {
         <div className="disc">
             <h1>Description</h1>
             <p>{disc}
-            <a href= {link}>View in Github</a>
+            <a href= {link}>View</a>
             </p>
         </div>
     </Container>
