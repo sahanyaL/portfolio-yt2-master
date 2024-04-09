@@ -9,6 +9,25 @@ import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
 const Footer = () => {
+
+  const sendEmail = (event) => {
+    event.preventDefault(); // Prevent the default form submission behavior
+
+    // Retrieve form values
+    const fullname = event.target.elements.fullname.value;
+    const email = event.target.elements.email.value;
+    const message = event.target.elements.message.value;
+
+    // Construct email link
+    const emailLink = "mailto:lpiyumdi@gmail.com" +
+        "?subject=" + encodeURIComponent("Quick Message") +
+        "&body=" + encodeURIComponent("Full name: " + fullname + "\nEmail: " + email + "\n\nMessage: " + message);
+    
+    // Open default email client with pre-filled values
+    window.location.href = emailLink;
+  };
+
+
   const scrollUp = () => {
     window.scroll({
       top: 0,
@@ -87,28 +106,28 @@ const Footer = () => {
           </ArrowUp>
         </Fade>
       </Profile>
-      <Form>
+      <Form onSubmit={sendEmail}>
         <Slide direction="right">
           <form>
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input type="text" name="fullname" placeholder="Fullname..." />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input type="email" name="email" placeholder="Email..." />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea name="message" cols="30" rows="10" placeholder="Message..."></textarea>
             </div>
-            <button>Submit</button>
+            <button type="submit">Submit</button>
           </form>
         </Slide>
       </Form>
